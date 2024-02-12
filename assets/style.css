@@ -5,6 +5,8 @@ body {
 * {
 	font-family: 'Inter';
 	font-style: normal;
+	
+
 }
 .top-header {
 	background-color: white;
@@ -21,25 +23,32 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
-
-.nav ul {
+.top-header nav {
 	display: flex;
-	list-style-type: none;
-	font-size: 14px;
-	margin-bottom: 0;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
-.nav li {
+nav ul {
+	display: flex;
+	font-size: 14px;
+	margin-bottom: 0;
+	list-style: none
+}
+
+nav li {
 	padding-inline: 10px;
 }
 
-.nav a {
+nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+	font-size: 12px;
 }
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,7 +78,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
+	max-width: 400px;
+ 	max-height: 400px;
 }
 #about-me {
 	flex: 2
@@ -91,7 +102,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh; 
 }
 .title{
 	text-align: center;
@@ -104,6 +115,7 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	text-shadow: 1px 1px 1px #000
 }
 .nav-pills .nav-link {
 	color: #000
@@ -188,6 +200,10 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__price {
+	font-weight: bold;
 }
 
 #contact {
