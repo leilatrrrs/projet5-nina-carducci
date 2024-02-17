@@ -3,16 +3,16 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographe Professionnelle</title>
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="assets/style.min.css">
+ 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+ 	<link rel="stylesheet" href="assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 
-	<!-- balise meta -->
+	<!-- balises meta -->
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux, spécaliste des shootings, des retouches photos et des créations d'albums photo ">
-	<meta name="keywords" content="photographe, portfolio, services photo, mariage, entreprise, portrait">
+	<meta name="keywords" content="photographe, portfolio, services photo, mariage, entreprise, portrait, Bordeaux">
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Nina Carducci">
 
@@ -72,7 +72,6 @@
 <body>
 
 	<header>
-
 		<div class="top-header">
 			<h1 class="name">Nina Carducci</h1>
 			<nav>   
@@ -99,31 +98,28 @@
 
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<picture>
-							<source srcset="assets\images\slider\650\ryoji-iwata-650.webp" media="(max-width:650px)"/>
-							<source srcset="assets\images\slider\1000\ryoji-iwata-1000.webp"media="(min-width:650px) and (max-width:1000px)"/>
-							<source srcset="assets\images\slider\1180\ryoji-iwata-1180.webp"media="(min-width:1000px)"/> 
 						<img src="assets/images/slider/ryoji-iwata.webp"  
-							class="d-block w-100" alt="Man crossing the street" min-width="400" min-height="400">
-						</picture>
+							srcset="./assets/images/slider/650/ryoji-iwata-650.webp 650w,
+									./assets/images/slider/1000/ryoji-iwata-1000.webp 1000w, 
+									./assets/images/slider/1180/ryoji-iwata-1180.webp 1180w"	
+									sizes="(max-width: 1920px) 100vw, 50vw"				
+							class="d-block w-100" alt="Man crossing the street"/>
 					</div>
 					<div class="carousel-item">
-						<picture>
-						<source srcset="assets\images\slider\650\nicholas-green-650.webp" media="(max-width:650px)"/>
-						<source srcset="assets\images\slider\1000\nicholas-green-1000.webp" media="(min-width:650px) and (max-width:1000px)"/>
-						<source srcset="assets\images\slider\1180\nicholas-green-1180.webp" media="(min-width:1000px)"/>
 						<img src="assets/images/slider/nicholas-green.webp" 
-								class="d-block w-100" alt="Crowd at a concert"min-width="400" min-height="400" loading="lazy">
-						</picture>
+							srcset="./assets/images/slider/650/nicholas-green-650.webp 650w,
+									./assets/images/slider/1000/nicholas-green-1000.webp 1000w,
+									./assets/images/slider/1180/nicholas-green-1180.webp 1180w"
+									sizes="(max-width: 1920px) 100vw, 50vw"					
+							class="d-block w-100" alt="Crowd at a concert" loading="lazy"/>
 					</div>
 					<div class="carousel-item">
-						<picture>
-						<source srcset="assets\images\slider\650\ryoji-iwata-650.webp" media="(max-width:650px)"/>
-								<source srcset="assets\images\slider\1000\edward-cisneros-1000.webp" media="(min-width:650px) and (max-width:1000px)"/>
-								<source srcset="assets\images\slider\1180\edward-cisneros-1180.webp" media="(min-width:1000px)"/>
-						<img src="assets\images\slider\edward-cisneros.webp" 
-							class="d-block w-100" alt="Married couple"min-width="400" min-height="400" loading="lazy">
-						</picture>
+						<img src="assets/images/slider/edward-cisneros.webp" 
+						srcset="./assets/images/slider/650/edward-cisneros-650.webp 650w,
+						./assets/images/slider/1000/edward-cisneros-1000.webp 1000w,
+								./assets/images/slider/1180/edward-cisneros-1180.webp 1180w"
+								sizes="(max-width: 1920px) 100vw, 50vw"						
+						class="d-block w-100" alt="Married couple" loading="lazy"/>
 					</div>
 				</div>
 
@@ -137,46 +133,46 @@
 				</button>
 			</div>
 		</div>
-			<section id="about">
-				<div class="picture left">
-					<img src="./assets/images/nina2.webp" alt="Portrait of Nina Carducci" loading="lazy" min-width="400" min-height="400">
-				</div>
-				<div id="about-me">
-					<h2 class="about-me__title">A propos de moi</h2>
-					<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. 
-						Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-					<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
-						le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
-						ou le partager au plus grand nombre.
-						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique.
-						Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur,
-						de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-				</div>
-			</section>
 
+		<section id="about">
+			<div class="picture left">
+				<img src="./assets/images/nina2.webp" alt="Portrait of Nina Carducci" loading="lazy" width="400" height="400">
+			</div>
+			<div id="about-me">
+				<h2 class="about-me__title">A propos de moi</h2>
+				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. 
+					Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
+					le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux,
+					ou le partager au plus grand nombre.
+					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique.
+					Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur,
+					de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+			</div>
+		</section>
 
 			<section id="gallery">
 				<h2 class="title">Portfolio</h2>
 				<div class="container py-3">
 					<div class="gallery" style="display: none">
 						<img data-gallery-tag="Concert" class="gallery-item" 
-								src="assets/images/gallery/concerts/aaron-paul.webp" alt="Gig's picture from the crowd"width="100" height="100"/>
+								src="assets/images/gallery/concerts/aaron-paul.webp" alt="Gig's picture from the crowd" width="100" height="100"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" 
-								src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="Portrait of a man in a suit, arms crossed"width="100" height="100"/>
+								src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="Portrait of a man in a suit, arms crossed" width="100" height="100"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" 
-								src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="Picture of a  smiling woman during a metting"width="100" height="100"/>
+								src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="Picture of a  smiling woman during a metting" width="100" height="100"/>
 						<img data-gallery-tag="Mariages" class="gallery-item" 
-								src="assets/images/gallery/mariage/hannah-busing.webp" alt="Picture of hands that touch each others"width="100" height="100"/>
+								src="assets/images/gallery/mariage/hannah-busing.webp" alt="Picture of hands that touch each others" width="100" height="100"/>
 						<img data-gallery-tag="Portrait" class="gallery-item" 
-								src="./assets/images/gallery/portraits/ade-tunji.webp" alt="Portrait of a man whith his eyes closed because of the sunshine"width="100" height="100"/>
+								src="./assets/images/gallery/portraits/ade-tunji.webp" alt="Portrait of a man whith his eyes closed because of the sunshine" width="100" height="100"/>
 						<img data-gallery-tag="Mariages" class="gallery-item" 
-								src="./assets/images/gallery/mariage/jakob-owens.webp" alt="Picture of a married couple walking, laughing and holding each other hands "width="100" height="100"/>
+								src="./assets/images/gallery/mariage/jakob-owens.webp" alt="Picture of a married couple walking, laughing and holding each other hands" width="100" height="100"/>
 						<img data-gallery-tag="Portrait" class="gallery-item" 
-								src="assets/images/gallery/portraits/van-prattenburg.webp" alt="Portrait of a women with her hand in her hair"width="100" height="100" />
+								src="assets/images/gallery/portraits/van-prattenburg.webp" alt="Portrait of a women with her hand in her hair" width="100" height="100" />
 						<img data-gallery-tag="Concert" class="gallery-item" 
-								src="./assets/images/gallery/concerts/austin-neill.webp" alt="Picture of a male singer during a gig."width="100" height="100"/>
+								src="./assets/images/gallery/concerts/austin-neill.webp" alt="Picture of a male singer during a gig." width="100" height="100"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" 
-								src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Portait of a laughing woman at work, in front of her laptop"width="100" height="100"/>
+								src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Portait of a laughing woman at work, in front of her laptop" width="100" height="100"/>
 					</div>
 				</div>
 
@@ -237,8 +233,8 @@
 			<div class="quote">
 				<figure>
 					<blockquote class="quote__text">
-						<p>De manière inconsciente, je crois, je guette un regard, une expression, 
-							des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+						De manière inconsciente, je crois, je guette un regard, une expression, 
+							des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
